@@ -1,12 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 3.4.5
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Jul 19, 2016 at 07:40 PM
--- Server version: 5.5.16
--- PHP Version: 5.4.0beta2-dev
-
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
@@ -17,7 +8,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `test`
+-- Database: `gagbo`
 --
 
 -- --------------------------------------------------------
@@ -42,9 +33,9 @@ CREATE TABLE IF NOT EXISTS `librarian` (
 --
 
 INSERT INTO `librarian` (`id`, `name`, `password`, `email`, `address`, `city`, `contact`) VALUES
-(1, 'Prabhakar', 'ppp', 'prabhakar@gmail.com', 'javatpoint', 'noida', '9998328238'),
-(4, 'sumedh', 'sumesh', 'sumesh@gmail.com', 'Kuch Bhi', 'noida', '93823932823'),
-(6, 'abhi', 'abhi', 'abhi@gmail.com', 'javatpoint', 'noida', '92393282323');
+(1, 'Ashley Sanders', 'abc123', 'asanders@gmail.com', '123 East', 'Carmel', '9998328238'),
+(4, 'John Michael', 'efg123', 'jmichael@gmail.com', '456 West', 'Carmel', '93823932823'),
+(6, 'Joe Levis', 'hij123','jlevis@gmail.com', '789 North', 'Carmel', '92393282323');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
