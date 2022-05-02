@@ -1,12 +1,3 @@
--- phpMyAdmin SQL Dump
--- version 3.4.5
--- http://www.phpmyadmin.net
---
--- Host: localhost
--- Generation Time: Jul 19, 2016 at 07:40 PM
--- Server version: 5.5.16
--- PHP Version: 5.4.0beta2-dev
-
 SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
@@ -17,7 +8,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `test`
+-- Database: `gagbo`
 --
 
 -- --------------------------------------------------------
@@ -41,9 +32,9 @@ CREATE TABLE IF NOT EXISTS `issuebooks` (
 --
 
 INSERT INTO `issuebooks` (`id`, `bookcallno`, `studentid`, `studentname`, `studentcontact`, `issueddate`) VALUES
-(4, 'A@4', 23, 'kk', '932992932', '2016-07-19 18:43:16'),
-(6, 'A@4', 335, 'Sumedh', '95676565756', '2016-07-19 18:44:34'),
-(7, 'A@4', 87, 'abhishek', '9329882382', '2016-07-19 18:46:12');
+(4, 'A@4', 123, 'Mary Law', '93299293210', '2022-02-19 18:43:16'),
+(6, 'A@4', 335, 'John Thomas', '95676565756', '2022-03-19 18:44:34'),
+(7, 'A@4', 871, 'Mike Lee', '93298823824', '2016-02-19 18:46:12');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
